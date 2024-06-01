@@ -1,0 +1,22 @@
+.link-lista-de-precios {
+  font-size: 20px;
+  font-weight: bolder;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: white;
+}
+
+.link-precios {
+  font-size: 20px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: bolder;
+  color: black;
+  width: 400px;
+  height: 59px;
+  border-radius: 20px;
+}
+
+@media (max-width: 430px) {
+  .link-precios {
+    width: 300px;
+  }
+}/*# sourceMappingURL=lista-precios.css.map */
