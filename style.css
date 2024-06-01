@@ -1,3 +1,7 @@
+.cuerpo{
+  overflow-x: hidden;
+}
+
 .navegador-contenedor {
   color: white;
   font-weight: bold;
@@ -390,12 +394,15 @@
     position: absolute;
     background-color: black;
     width: 300px;
-    height: 200px;
+    height: 100px;
     top: 0;
-    right: -100%;
+    right: -300px;
     justify-content: start;
     align-items: center;
     z-index: 2;
+    padding-top: 100px;
+   
+    
   }
   .menu:hover + .navegador-contenedor {
     width: 300px;
@@ -406,6 +413,7 @@
     align-items: center;
     transition-duration: 1s;
     z-index: 2;
+    
   }
   .navegador-contenedor:hover {
     width: 300px;
@@ -415,6 +423,7 @@
     justify-content: start;
     align-items: center;
     transition-duration: 1s;
+    
   }
 }
 .quienes-somos {
