@@ -1,6 +1,4 @@
-.cuerpo{
-  overflow-x: hidden;
-}
+
 
 .navegador-contenedor {
   color: white;
@@ -396,12 +394,11 @@
     width: 300px;
     height: 100px;
     top: 0;
-    right: -300px;
+    right: 100vw;
     justify-content: start;
     align-items: center;
-    z-index: 2;
     padding-top: 100px;
-   
+    z-index: 1;
     
   }
   .menu:hover + .navegador-contenedor {
@@ -412,7 +409,7 @@
     justify-content: start;
     align-items: center;
     transition-duration: 1s;
-    z-index: 2;
+    
     
   }
   .navegador-contenedor:hover {
