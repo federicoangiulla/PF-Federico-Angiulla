@@ -1,0 +1,48 @@
+.menu {
+  color: white;
+  position: absolute;
+  top: 0%;
+  right: 0%;
+  margin: 20px;
+  font-size: 30px;
+  display: none;
+}
+
+@media (max-width: 905px) {
+  .menu {
+    display: block;
+  }
+}
+@media (max-width: 905px) {
+  .navegador-contenedor {
+    flex-direction: column;
+    position: absolute;
+    background-color: black;
+    width: 300px;
+    height: 200px;
+    top: 0;
+    right: -100%;
+    justify-content: start;
+    align-items: center;
+    z-index: 2;
+  }
+  .menu:hover + .navegador-contenedor {
+    width: 300px;
+    height: 100vh;
+    top: 0;
+    right: 0;
+    justify-content: start;
+    align-items: center;
+    transition-duration: 1s;
+    z-index: 2;
+  }
+  .navegador-contenedor:hover {
+    width: 300px;
+    height: 100vh;
+    top: 0px;
+    right: 0;
+    justify-content: start;
+    align-items: center;
+    transition-duration: 1s;
+  }
+}/*# sourceMappingURL=menu-hamburguesa.css.map */

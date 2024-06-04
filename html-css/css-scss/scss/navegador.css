@@ -1,0 +1,31 @@
+.navegador-contenedor {
+  color: white;
+  font-weight: bold;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.imagen {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.imagen-logo {
+  width: 150px;
+  height: 100px;
+  z-index: 1;
+}
+
+.pagina-principal-1 {
+  color: white;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 20px;
+  padding: 20px;
+  text-align: center;
+}
+
+.cuerpo {
+  background-color: black;
+}/*# sourceMappingURL=navegador.css.map */
