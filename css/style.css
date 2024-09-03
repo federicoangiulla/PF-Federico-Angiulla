@@ -295,6 +295,15 @@
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 
+.carousel-inner{
+  overflow: hidden;
+}
+
+.caro1{
+ overflow: hidden;
+padding-right: 300px; 
+}
+
 .imagen-logo-abajo {
   width: 150px;
   height: 100px;
@@ -450,6 +459,8 @@
   flex-wrap: wrap;
 }
 
+
+
 .informacion-1 {
   display: flex;
   flex-direction: row;
@@ -497,4 +508,9 @@
     flex-direction: column;
     align-items: flex-start;
   }
+
+.carousel-itemactive{
+  width: 600px;
+  height: 100px;
+}
 }/*# sourceMappingURL=style.css.map */
