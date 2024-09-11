@@ -1,17 +1,19 @@
-header{
-    .titulo{
+header {
+    .titulo {
         color: white;
-        font-size: 50px;
+        font-size: nth($font, 5);
         text-align: center;
         font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
     }
-    .subtitulo{
+
+    .subtitulo {
         color: white;
         text-align: center;
-        font-size: 40px;
+        font-size: nth($font, 4);
         font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
     }
-    .somos{
+
+    .somos {
         color: white;
         font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
     }

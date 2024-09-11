@@ -141,7 +141,7 @@ img {
 .quienes-somos {
   color: white;
   text-align: justify;
-  font-size: 15px;
+  font-size: 25ps;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   font-weight: bold; }
 
@@ -163,7 +163,7 @@ img {
   border-radius: 20px;
   text-decoration: none;
   border: 4px solid white;
-  font-size: 15px;
+  font-size: 25ps;
   color: black;
   font-weight: bolder; }
 
@@ -252,7 +252,7 @@ header .somos {
   display: flex; }
   .footer .Copyright {
     color: white;
-    font-size: 25px;
+    font-size: 25ps;
     font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif; }
   .footer .imagen-logo-abajo {
     width: 150px;
