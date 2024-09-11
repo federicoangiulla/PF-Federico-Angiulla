@@ -1,98 +1,3 @@
-header .titulo {
-  color: white;
-  font-size: 50px;
-  text-align: center;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif; }
-
-header .subtitulo {
-  color: white;
-  text-align: center;
-  font-size: 40px;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif; }
-
-header .somos {
-  color: white;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif; }
-
-.contenedor-div {
-  display: flex;
-  flex-wrap: wrap; }
-  .contenedor-div .seccion1 {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    flex-wrap: wrap; }
-    .contenedor-div .seccion1 .div-aperitivos {
-      display: flex;
-      padding: 10px;
-      border: 4px solid white;
-      margin: 40px;
-      flex-direction: column;
-      border-radius: 20px;
-      flex-wrap: wrap;
-      align-items: center; }
-      .contenedor-div .seccion1 .div-aperitivos .aperitivos-imagen1 {
-        width: 150px;
-        height: 150px;
-        -o-object-fit: cover;
-        object-fit: cover;
-        border-radius: 20px;
-        flex-wrap: wrap; }
-        .contenedor-div .seccion1 .div-aperitivos .aperitivos-imagen1:hover {
-          transform: scale(1.5);
-          position: relative;
-          bottom: 30px;
-          transition: 3s; }
-        .contenedor-div .seccion1 .div-aperitivos .aperitivos-imagen1 .boton1 {
-          display: flex;
-          justify-content: center;
-          background-color: white;
-          font-weight: bold;
-          margin: 5px;
-          width: 150px;
-          height: 35px;
-          align-items: center;
-          border-radius: 20px;
-          text-decoration: none;
-          border: 4px solid white;
-          font-size: 15px;
-          color: black;
-          font-weight: bolder; }
-      .contenedor-div .seccion1 .div-aperitivos .a {
-        text-decoration: none; }
-        .contenedor-div .seccion1 .div-aperitivos .a .boton1 {
-          display: flex;
-          justify-content: center;
-          background-color: white;
-          margin: 5px;
-          width: 150px;
-          height: 30px;
-          align-items: center;
-          border-radius: 20px;
-          border: 4px solid white;
-          font-size: 15px;
-          color: black;
-          font-weight: bolder;
-          flex-wrap: wrap; }
-          .contenedor-div .seccion1 .div-aperitivos .a .boton1:hover {
-            transform: scale(1.5);
-            transition: 1s; }
-
-.footer {
-  display: flex; }
-  .footer .Copyright {
-    color: white;
-    font-size: 25px;
-    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif; }
-  .footer .imagen-logo-abajo {
-    width: 150px;
-    height: 100px;
-    display: flex;
-    position: absolute;
-    right: 0%;
-    overflow: hidden; }
-
 .cuerpo {
   background-color: black; }
 
@@ -261,6 +166,101 @@ img {
   font-size: 15px;
   color: black;
   font-weight: bolder; }
+
+header .titulo {
+  color: white;
+  font-size: 50px;
+  text-align: center;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif; }
+
+header .subtitulo {
+  color: white;
+  text-align: center;
+  font-size: 40px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif; }
+
+header .somos {
+  color: white;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif; }
+
+.contenedor-div {
+  display: flex;
+  flex-wrap: wrap; }
+  .contenedor-div .seccion1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    flex-wrap: wrap; }
+    .contenedor-div .seccion1 .div-aperitivos {
+      display: flex;
+      padding: 10px;
+      border: 4px solid white;
+      margin: 40px;
+      flex-direction: column;
+      border-radius: 20px;
+      flex-wrap: wrap;
+      align-items: center; }
+      .contenedor-div .seccion1 .div-aperitivos .aperitivos-imagen1 {
+        width: 150px;
+        height: 150px;
+        -o-object-fit: cover;
+        object-fit: cover;
+        border-radius: 20px;
+        flex-wrap: wrap; }
+        .contenedor-div .seccion1 .div-aperitivos .aperitivos-imagen1:hover {
+          transform: scale(1.5);
+          position: relative;
+          bottom: 30px;
+          transition: 3s; }
+        .contenedor-div .seccion1 .div-aperitivos .aperitivos-imagen1 .boton1 {
+          display: flex;
+          justify-content: center;
+          background-color: white;
+          font-weight: bold;
+          margin: 5px;
+          width: 150px;
+          height: 35px;
+          align-items: center;
+          border-radius: 20px;
+          text-decoration: none;
+          border: 4px solid white;
+          font-size: 15px;
+          color: black;
+          font-weight: bolder; }
+      .contenedor-div .seccion1 .div-aperitivos .a {
+        text-decoration: none; }
+        .contenedor-div .seccion1 .div-aperitivos .a .boton1 {
+          display: flex;
+          justify-content: center;
+          background-color: white;
+          margin: 5px;
+          width: 150px;
+          height: 30px;
+          align-items: center;
+          border-radius: 20px;
+          border: 4px solid white;
+          font-size: 15px;
+          color: black;
+          font-weight: bolder;
+          flex-wrap: wrap; }
+          .contenedor-div .seccion1 .div-aperitivos .a .boton1:hover {
+            transform: scale(1.5);
+            transition: 1s; }
+
+.footer {
+  display: flex; }
+  .footer .Copyright {
+    color: white;
+    font-size: 25px;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif; }
+  .footer .imagen-logo-abajo {
+    width: 150px;
+    height: 100px;
+    display: flex;
+    position: absolute;
+    right: 0%;
+    overflow: hidden; }
 
 @media (max-width: 980px) {
   .footer {
