@@ -214,3 +214,26 @@ img {
     color: $color-principal;
     font-weight: bolder;
 }
+
+
+.menu {
+    color: white;
+    position: absolute;
+    top: 0%;
+    right: 0%;
+    margin: 20px;
+    font-size: 30px;
+    display: none;
+
+    
+}  
+
+
+.navegador-contenedor{
+    color: white;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
