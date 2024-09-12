@@ -405,10 +405,3 @@ header .somos {
     transform: translate(-150px, 0px); }
   100% {
     transform: translate(0px, 0px); } }
-
-.navegador-contenedor {
-  color: white;
-  font-weight: bold;
-  display: flex;
-  justify-content: space-around;
-  align-items: center; }
