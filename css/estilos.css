@@ -176,13 +176,6 @@ img {
   font-size: 30px;
   display: none; }
 
-.navegador-contenedor {
-  color: white;
-  font-weight: bold;
-  display: flex;
-  justify-content: space-around;
-  align-items: center; }
-
 header .titulo {
   color: white;
   font-size: 50px;
@@ -368,15 +361,21 @@ header .somos {
   align-items: center;
   transition-duration: 3s; }
 
-.navegador-contenedor .pagina-principal-1 {
+.navegador-contenedor {
   color: white;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  font-size: 20px;
-  padding: 20px;
-  text-align: center; }
-  .navegador-contenedor .pagina-principal-1:hover {
-    font-size: 25px;
-    transition: 1s; }
+  font-weight: bold;
+  display: flex;
+  justify-content: space-around;
+  align-items: center; }
+  .navegador-contenedor .pagina-principal-1 {
+    color: white;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    font-size: 20px;
+    padding: 20px;
+    text-align: center; }
+    .navegador-contenedor .pagina-principal-1:hover {
+      font-size: 25px;
+      transition: 1s; }
 
 @-webkit-keyframes movimiento {
   0% {
