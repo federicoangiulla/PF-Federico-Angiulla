@@ -105,12 +105,18 @@
         display: grid;
         grid-template-columns: repeat(6, 1fr);
         grid-template-rows: repeat(6, 100px);
-        grid-template-areas: "img1 img1 img2 img2 img3 img3" "img1 img1 img2 img2 img3 img3" "img1 img1 img2 img2 img3 img3" "img5 img5 img2 img2 img4 img4" "img5 img5 img6 img6 img4 img4" "img5 img5 img6 img6 img4 img4";
-        gap: 30px;
+        grid-template-areas:"img1 img1 img2 img2 img3 img3"
+                            "img1 img1 img2 img2 img3 img3" 
+                            "img1 img1 img2 img2 img3 img3" 
+                            "img5 img5 img2 img2 img4 img4" 
+                            "img5 img5 img6 img6 img4 img4" 
+                            "img5 img5 img6 img6 img4 img4";
+
     }
 
     img {
-        @include tamano(100%, 100%) -o-object-fit: cover;
+        @include tamano(100%, 100%) 
+        -o-object-fit: cover;
         object-fit: cover;
     }
 
@@ -206,4 +212,3 @@
         margin-top: 10px;
         margin-bottom: 100px;
     }
-
