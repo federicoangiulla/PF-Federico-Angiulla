@@ -154,13 +154,14 @@
     margin: 20px;
     font-size: 30px;
     display: none; }
-  .form1 .caroimagen {
-    width: 600px;
-    height: 600px;
-    margin-left: 450px;
-    object-fit: cover;
-    margin-top: 100px;
-    margin-bottom: 100px; }
+
+.caroimagen {
+  width: 600px;
+  height: 600px;
+  margin-left: 450px;
+  object-fit: cover;
+  margin-top: 10px;
+  margin-bottom: 100px; }
 
 header .titulo {
   color: white;
