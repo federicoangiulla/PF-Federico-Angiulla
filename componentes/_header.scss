@@ -1,21 +1,23 @@
 header {
     .titulo {
-        color: white;
-        font-size: nth($font, 5);
+        color: nth($colores , 2 );
+        font-size: nth($fuentes, 5);
         text-align: center;
         font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
     }
 
     .subtitulo {
-        color: white;
+        color: nth($colores , 2 );
         text-align: center;
-        font-size: nth($font, 4);
+        font-size: nth($fuentes, 4);
         font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
     }
 
     .somos {
-        color: white;
+        color: nth($colores , 2 );
         font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+        margin-left: 50px;
+        margin-right: 50px;
     }
 
 }

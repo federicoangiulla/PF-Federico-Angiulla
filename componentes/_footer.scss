@@ -2,14 +2,13 @@
     display: flex;
 
     .Copyright {
-        color: white;
-        font-size: nth($font, 3);
+        color: nth($colores , 2 );
+        font-size: nth($fuentes, 3);
         font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
     }
 
     .imagen-logo-abajo {
-        width: 150px;
-        height: 100px;
+        @include tamano(150px, 100px);
         display: flex;
         position: absolute;
         right: 0%;

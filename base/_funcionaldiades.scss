@@ -1,3 +1,22 @@
 $color-principal: black;
 $color-letra: white;
-$font: 15px, 20px, 25ps, 40px, 50px,
+
+
+$colores: black, white, grey;
+$fuentes: 15px, 20px, 25px, 30px, 40px, 50px;
+
+
+@mixin flex($flex, $justify){
+display: $flex;
+justify-content: $justify;
+}
+
+@mixin tamano($ancho, $alto){
+    width: $ancho;
+    height: $alto;
+}
+
+%alineacion{
+    align-items: center;
+    flex-direction: column;
+}
