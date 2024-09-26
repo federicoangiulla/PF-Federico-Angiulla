@@ -94,7 +94,7 @@
         right: 0px;
         margin: 20px;
         display: block;
-        z-index: 0;
+        z-index: 2;
     }
 
     .navegador-contenedor {
@@ -102,7 +102,7 @@
         flex-direction: column;
         position: absolute;
         background-color: nth($colores , 1);
-        @include tamano(300px, 100px);
+        @include tamano(400px, 900px);;
         top: 0;
         right: 100vw;
         justify-content: start;
@@ -114,7 +114,7 @@
     }
 
     .hamburguesa:hover+.navegador-contenedor {
-        @include tamano(300px, 100px);
+        @include tamano(400px, 900px);
         top: 0;
         right: 0;
         justify-content: start;
@@ -129,7 +129,7 @@
 
         right: 0px;
         top: 0px;
-        @include tamano(300px, 100px);
+        @include tamano(400px, 900px);
         z-index: 1;
         background-color: $color-principal;
     }

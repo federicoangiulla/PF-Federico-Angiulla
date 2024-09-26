@@ -172,15 +172,13 @@
     color: $color-letra;
 }
 
-.somos-nosotros {
-    color: $color-letra;
-    margin: 20px;
-}
 
 .somos {
     color: $color-letra;
     margin: 20px;
     font-size: 20px;
+    flex-wrap: wrap;
+    z-index: 0;
 }
 
 .caroimagen {
