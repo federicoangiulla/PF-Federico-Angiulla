@@ -195,7 +195,7 @@ header .somos {
       .contenedor-div .seccion1 .div-aperitivos .aperitivos-imagen1 {
         width: 150px;
         height: 150px;
-        transition: 0,5;
+        transition: 0, 5;
         object-fit: cover;
         border-radius: 20px;
         flex-wrap: wrap; }
