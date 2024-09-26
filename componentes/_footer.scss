@@ -2,7 +2,7 @@
     display: flex;
 
     .Copyright {
-        color: nth($colores , 2 );
+        color: nth($colores , 2);
         font-size: nth($fuentes, 3);
         font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
     }
